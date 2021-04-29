@@ -6,6 +6,12 @@
 .flex-container {
   background-color: cornflowerblue;
   display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  flex-flow: wrap column;
 }
 .flex-container > div {
   background-color: darkcyan;
